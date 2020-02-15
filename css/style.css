@@ -3,7 +3,6 @@
   padding: 0;
 
   font-family: 'Cuprum', Arial, sans-serif;
-  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
@@ -13,8 +12,7 @@
   background-image: url("img/white-background.png");
   background-position: top center;
   background-repeat: no-repeat;
-  width: 1200px;
-  height: 3151px;
+
 }
 
 a {
@@ -22,7 +20,7 @@ a {
 }
 
 p {
-  font-family: PTSans;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -31,19 +29,14 @@ p {
 }
 
 h2 {
-  font-family: Cuprum;
   font-size: 30px;
   font-weight: 400;
-  font-style: normal;
   line-height: 30px;
-  letter-spacing: normal;
   text-align: left;
   color: #32425c;
 }
 
 .main-header {
-  width: 1200px;
-  height: 320px;
   background-color: #f4f7f9;
 }
 .main-header-logo {
@@ -59,22 +52,16 @@ h2 {
   box-shadow: #8e1e26;
 }
 .main-header-search {
- font-family: Cuprum;
- font-size: 17px;
- font-weight: 400;
- font-style: normal;
- text-align: left;
- color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
 }
 .main-header-order {
-  width: 150px;
-  height: 42px;
   background-color: #63a63e;
 }
 .main-header-order a {
   width: 108px;
-  height: 15px;
-  font-family: Cuprum;
   font-size: 17px;
   color: #ffffff;
 }
@@ -88,15 +75,12 @@ h2 {
   font-size: 16px;
   line-height: 23px;
   text-align: left;
-  font-family: Cuprum;
   font-weight: 400;
   font-style: italic;
   color: #ee3643;
 }
 .main-header-address {
   width: 250px;
-  height: 13px;
-  font-family: Cuprum;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -105,23 +89,19 @@ h2 {
 }
 .main-header-phone {
   width: 144px;
-  height: 21px;
-  font-family: Cuprum;
   font-size: 21px;
   font-weight: 400;
-  font-style: normal;
   line-height: 30px;
   text-align: left;
   color: #ee3643;
   border: solid 3px #ffffff;
 }
 
-
 .login-link {
   width: 121px;
-  height: 45px;
-  background-color: #ffffff;
   color: #000000;
+
+  background-color: #ffffff;
 }
 .login-link:hover {
   color: #ee3643;
@@ -149,10 +129,10 @@ h2 {
   background-color: #1d2739;
 }
  .site-navigation a:active {
-  background-color: #293449;
   color: rgba(255, 255, 255, 0.5);
-
+  background-color: #293449;
 }
+
 .user-navigation {
   color: #000000;
 }
@@ -162,168 +142,167 @@ h2 {
 }
 .slider li:first-child {
   width: 300px;
-  height: 123px;
   background-color: #ffbf47;
 }
 .slider li:nth-child(2) {
   width: 300px;
-  height: 123px;
   background-color: #3bbce3;
 }
 .slider li:nth-child(3) {
   width: 300px;
-  height: 123px;
   background-color: #dc91d8;
 }
 .slider li:nth-child(4) {
   width: 300px;
-  height: 123px;
   background-color: #8ed78f;
 }
 .slider li:last-child {
   width: 300px;
-  height: 123px;
   background-color: #ffc047;
 }
 .slider-text {
-   font-family: Cuprum;
-   font-size: 24px;
-   font-weight: 700;
-   font-style: normal;
-   line-height: 30px;
-   text-align: left;
-   color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
 }
 .slider-text-button {
-  font-family: Cuprum;
   font-size: 14px;
   font-weight: 400;
-  font-style: normal;
   line-height: 18px;
   text-align: center;
   color: #ffffff;
+
+  text-transform: uppercase;
   background-color: #e5e5e5;
   /*opacity: 10%;*/
 }
 .slider-image span {
   width: 94px;
-  height: 30px;
-  font-family: Cuprum;
   font-size: 36px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 36px;
-  letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+
+  text-transform: uppercase;
 }
 .slider-image p {
   width: 143px;
-  height: 17px;
-  font-family: Cuprum;
   font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
+  font-weight: 400;
   line-height: 24px;
-  letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+
+  text-transform: uppercase;
 }
 .slider-image a {
   width: 101px;
-  height: 10px;
-  font-family: Cuprum;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
+  font-weight: 400;
   line-height: 18px;
-  letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+  text-transform: uppercase;
   background-color: #ee3643;
 }
 .slider-image a:hover {
+  text-transform: uppercase;
   background-color: #ca2c37;
 }
 .slider-image a:active {
+  text-transform: uppercase;
   background-color: #ba2732;
 }
 
 .popular-fields h2 {
   width: 940px;
-  height: 89px;
   background-color: #f9f5f0;
+  text-transform: uppercase;
 }
 .popular-fields a {
   width: 143px;
-  height: 10px;
-  font-family: Cuprum;
   font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 400;
   line-height: 18px;
-  letter-spacing: normal;
   text-align: center;
   color: #ffffff;
 
+  text-transform: uppercase;
   background-color: #ee3643;
+}
+.category-fields {
+  width: 940px;
+  background-color: #f2f6f8;
+  text-transform: uppercase;
+}
+.account-field {
+  width: 183px;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #000000;
+
+  background-color: #f4f7f9;
+}
+.account-order,
+.account-personal {
+  width: 75px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #32425c;
+
+  text-decoration: underline;
 }
 
 .item {
   width: 220px;
-  height: 318px;
   border: solid 1px #eaeaea;
+
   background-color: #ffffff;
 }
 .item:hover {
   box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 .item-buy {
- width: 41px;
- height: 10px;
- font-family: Cuprum;
- font-size: 14px;
- font-weight: normal;
- font-style: normal;
- line-height: 18px;
- letter-spacing: normal;
- text-align: center;
- color: #ffffff;
- background-color: #63a63e;
- box-shadow: 0 3px 0 0 #367315;
+  width: 41px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #63a63e;
+  box-shadow: 0 3px 0 0 #367315;
 }
 .item-buy:hover {
-background-color: #5fbb2d;
-box-shadow: 0 3px 0 0 #367315;
+  background-color: #5fbb2d;
+  box-shadow: 0 3px 0 0 #367315;
 }
 .item-buy:active {
-background-color: #518534;
+  background-color: #518534;
 }
 .item-bookmarks {
   width: 67px;
-  height: 12px;
-  font-family: Cuprum;
   font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 400;
   line-height: 18px;
-  letter-spacing: normal;
   text-align: center;
   color: #32425c;
 
   border: solid 3px #63a63e;
 }
 .item-bookmarks:hover {
-    width: 135px;
-    height: 38px;
-    border: solid 3px #32425c;
+  width: 135px;
+  border: solid 3px #32425c;
 }
 .item-bookmarks:active {
   width: 135px;
-  height: 38px;
   opacity: 30%;
   border: solid 3px #32425c;
 }
@@ -332,9 +311,11 @@ background-color: #518534;
   width: 220px;
   height: 145px;
   border: solid 1px #eaeaea;
+
   background-color: #ffffff;
-  list-style: none;
   background-position: center;
+
+  list-style: none;
 }
 .companies:hover {
   box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
@@ -345,37 +326,47 @@ background-color: #518534;
 
 .services {
   width: 1200px;
-  height: 522px;
   background-color: #f4f7f9;
-}
 }
 .services h2 {
   color: #000000;
-}
-.about-company h2 {
- color: #000000;
+  text-transform: uppercase;
 }
 .services-navigation {
-   width: 78px;
-   height: 19px;
-   font-family: Cuprum;
-   font-size: 21px;
-   font-weight: bold;
-   font-style: normal;
-   line-height:30px;
-   text-align: left;
-   color: #ffffff;
-   list-style: none;
-
-   background-color: #32425c;
+  list-style: none;
 }
+.services-nav-fields {
+  width: 78px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height:30px;
+  text-align: left;
+  color: #ffffff;
 
-.services-navigation:hover {
+  background-color: #32425c;
+}
+.services-nav-fields:hover {
   background-color: #293449;
 }
-.services-navigation:active {
+.services-nav-fields:active {
   color: #32425c;
   background-color: #ffffff;
+}
+
+.title {
+ width: 142px;
+ font-size: 36px;
+ font-weight: 400;
+ line-height: 36px;
+ text-align: left;
+ color: #32425c;
+
+ text-transform: uppercase;
+}
+
+.about-company h2 {
+  color: #000000;
+  text-transform: uppercase;
 }
 
 /*.indicator {
@@ -384,71 +375,61 @@ background-color: #518534;
   background-color: #ee3643;
   list-style-type:;
 }*/
+
 .detailed {
   width: 139px;
-  height: 12px;
-  font-family: Cuprum;
   font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 400;
   line-height: 18px;
   text-align: center;
   color: #ffffff;
 
+  text-transform: uppercase;
   background-color: #ee3643;
 }
+
 .write-us {
   width: 178px;
-  height: 12px;
-  font-family: Cuprum;
   font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 400;
   line-height: 18px;
   text-align: center;
   color: #ffffff;
 
+  text-transform: uppercase;
   background-color: #ee3643;
 }
-.credit-button {
-    width: 107px;
-    height: 10px;
-    font-family: Cuprum;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 18px;
-    text-align: center;
-    color: #ffffff;
 
+.credit-button {
+  width: 107px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+
+  text-transform: uppercase;
   background-color: #ff5357;
 }
 
 .footer-contacts-back {
   width: 1200px;
-  height: 107px;
   background-color: #293449;
 }
 .footer-nav-back {
   width: 1200px;
-  height: 300px;
   background-color: #32425c;
 }
-
 .footer-logo {
   width: 220px;
-  height: 68px;
   box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
   background-color: #ee3643;
 }
 .footer-address,
 .footer-address a {
   width: 322px;
-  height: 40px;
-  font-family: Cuprum;
   font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #f3f7f9;
@@ -457,43 +438,34 @@ background-color: #518534;
   list-style: none;
 }
 .footer-main-nav {
- width: 69px;
- height: 13px;
- font-family: Cuprum;
- font-size: 18px;
- font-weight: normal;
- font-style: normal;
- line-height: 24px;
- text-align: left;
- color: #f1f5f7;
- }
+  width: 69px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #f1f5f7;
+}
 .footer-nav {
- width: 79px;
- height: 17px;
- font-family: Cuprum;
- font-size: 18px;
- font-weight: normal;
- font-style: normal;
- line-height: 24px;
- text-align: left;
- color: #ffd180;
- list-style: none;
+  width: 79px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #ffd180;
+  list-style: none;
 }
 
 .copy-right {
   width: 228px;
-  height: 33px;
-  font-family: Cuprum;
   font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 400;
   line-height: 18px;
   text-align: left;
   color: #ffffff;
 }
+
 .socials a {
   width: 42px;
-  height: 42px;
   background-color: #212a3a;
 }
 .socials a:hover {
@@ -505,20 +477,18 @@ background-color: #518534;
 .socials ul {
   list-style: none;
 }
+
 .lower-footer-fields p {
   color: #ffffff;
 }
 .lower-footer-fields a {
-    width: 135px;
-    height: 32px;
-    font-family: Cuprum;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 18px;
-    text-align: left;
-    color: #ffd180;
-  }
+  width: 135px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #ffd180;
+}
 .lower-footer-fields a:hover {
   text-decoration: underline;
 }
@@ -526,11 +496,25 @@ background-color: #518534;
   text-decoration: none;
   color: #ee3643;
 }
+.catalog-navigation li {
+  width: 53px;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+  list-style: none;
+}
 
-}.line-through {
+.line-through {
   text-decoration: line-through;
 }
 
+.hidden {
+  display: none;
+}
 .visually-hidden {
   position:absolute;
   width: 1px;
@@ -541,8 +525,6 @@ background-color: #518534;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-
 /*.item-button {
   background-image: url(item-button.svg);
 }*/
