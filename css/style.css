@@ -9,7 +9,6 @@
   color: #000000;
 
   background-color: #ffffff;
-  background-image: url("img/white-background.png");
   background-position: top center;
   background-repeat: no-repeat;
 
@@ -38,6 +37,7 @@ h2 {
 
 .main-header {
   background-color: #f4f7f9;
+  width: 1200px;
 }
 .main-header-logo {
   background-color: #ee3643;
@@ -56,6 +56,8 @@ h2 {
   font-weight: 400;
   text-align: left;
   color: #ffffff;
+  background-color: #293449;
+  border: none;
 }
 .main-header-order {
   background-color: #63a63e;
@@ -114,7 +116,7 @@ h2 {
   font-size: 17px;
   line-height: 17px;
   color: #ffffff;
-
+  width: 1200px;
   background-color: #32425c;
 }
 
@@ -528,3 +530,31 @@ h2 {
 /*.item-button {
   background-image: url(item-button.svg);
 }*/
+
+.main-header-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.menu-back {
+  background-color: #293449;
+  width: 1200px;
+  min-height: 42px;
+}
+
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slogan {
+  width: 196px;
+}
+.address {
+  width: 270px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
