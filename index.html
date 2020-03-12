@@ -21,8 +21,18 @@
             <input class="main-header-search" placeholder="Поиск:" type="search" name="search-field">
             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewbox="0 0 17 17"><path fill="#ffffff" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/></svg>
           </form>
-          <a class="bookmark" href="bookmarks.html">Закладки: 0</a>
-          <a class="cart" href="cart.html">Корзина: 0</a>
+          <a class="bookmark" href="bookmarks.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
+              <path fill="#E72C2D" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/>
+            </svg>Закладки: 0
+          </a>
+          <a class="cart" href="cart.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+              <circle cx="4.5" cy="13.5" r="1.5"/>
+              <circle cx="12.5" cy="13.5" r="1.5"/>
+              <path d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/>
+            </svg>Корзина: 0
+          </a>
           <span class="main-header-order"><a  href="order.html">Оформить заказ</a></span>
         </div>
       </div>
@@ -66,7 +76,7 @@
 
       <section class="slider">
         <ul class="first-slider-items container">
-          <li>
+          <li class="newlabel">
             <p class="slider-text">Материалы</p>
             <a class="slider-text-button" href="materials.html" alt="Материалы на любой вкус">на любой вкус</a>
           </li>
@@ -89,30 +99,30 @@
             <a class="slider-text-button" href="delivery.html" alt="Бесплатная доставка">бесплатно</a>
           </li>
         </ul>
-        </section>
-
-        <div class="slider-image container">
-          <input class="slide-hammers visually-hidden" id="slide-hammers" type="radio" name="slider">
-          <input class="slide-drills visually-hidden" id="slide-drills" type="radio" name="slider" checked>
-          <ul class="slider-textarea">
-            <li class="slider-item hammers">
-              <h3>Перфораторы</h3>
-              <p>Настоящие мужские игрушки</p>
-            </li>
-            <li class="slider-item drills">
-              <h3>Дрели</h3>
-              <p>Соседям на радость!</p>
-            </li>
-          </ul>
-          <a class="button" href="catalog.html">Открыть каталог</a>
-          <label class="slider-control control-left" for="slide-hammers">Влево</label>
-          <label class="slider-control control-right" for="slide-drills">Вправо</label>
-          <div class="slider-wrap">
-            <label class="slider-radio" for="slide-hammers">Слайд перфораторы</label>
-            <label class="slider-radio" for="slide-drills">Слайд дрели</label>
-          </div>
+      </section>
+<div class="wrap-container">
+      <div class="slider-image container">
+        <input class="slide-hammers visually-hidden" id="slide-hammers" type="radio" name="slider">
+        <input class="slide-drills visually-hidden" id="slide-drills" type="radio" name="slider" checked>
+        <ul class="slider-textarea">
+          <li class="slider-item hammers">
+            <h3>Перфораторы</h3>
+            <p>Настоящие мужские игрушки</p>
+          </li>
+          <li class="slider-item drills">
+            <h3>Дрели</h3>
+            <p>Соседям на радость!</p>
+          </li>
+        </ul>
+        <a class="button" href="catalog.html">Открыть каталог</a>
+        <label class="slider-control control-left" for="slide-hammers">Влево</label>
+        <label class="slider-control control-right" for="slide-drills">Вправо</label>
+        <div class="slider-wrap">
+          <label class="slider-radio" for="slide-hammers">Слайд перфораторы</label>
+          <label class="slider-radio" for="slide-drills">Слайд дрели</label>
         </div>
-
+      </div>
+</div>
 
       <section>
         <span class="popular-fields container">
@@ -123,8 +133,8 @@
           <div class="item">
             <img src="img/item_4.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 9000 синий">
             <div class="catalog-buttons">
-              <a class="item-buy add-to-cart" href="cart.html" alt="Купить">Купить</a>
-              <a class="item-bookmarks add-to-bookmarks" href="bookmarks.html" alt="Добавить в закладки">В закладки</a>
+              <a class="item-buy" href="cart.html" alt="Купить">Купить</a>
+              <a class="item-bookmarks" href="bookmarks.html" alt="Добавить в закладки">В закладки</a>
             </div>
             <span>Перфоратор BOSCH</span>
             <span>BFG 9000</span>
@@ -133,8 +143,10 @@
           </div>
           <div class="item">
             <img src="img/item_1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000 синий">
-            <a class="item-buy" href="cart.html" alt="Купить">Купить</a>
-            <a class="item-bookmarks" href="bookmarks.html" alt="Добавить в закладки">В закладки</a>
+            <div class="catalog-buttons">
+              <a class="item-buy" href="cart.html" alt="Купить">Купить</a>
+              <a class="item-bookmarks" href="bookmarks.html" alt="Добавить в закладки">В закладки</a>
+            </div>
             <span>Перфоратор BOSCH</span>
             <span>BFG 3000</span>
             <p class="line-through">22500 р.</p>
@@ -142,19 +154,24 @@
           </div>
           <div class="item">
             <img src="img/item_2.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000 синий">
-            <a class="item-buy" href="cart.html" alt="Купить">Купить</a>
-            <a class="item-bookmarks" href="bookmarks.html" alt="Добавить в закладки">В закладки</a>
+            <div class="catalog-buttons">
+              <a class="item-buy" href="cart.html" alt="Купить">Купить</a>
+              <a class="item-bookmarks" href="bookmarks.html" alt="Добавить в закладки">В закладки</a>
+            </div>
             <span>Перфоратор BOSCH</span>
             <span>BFG 6000</span>
             <p class="line-through">30500 р.</p>
             <p class="price">25500 p.</p>
           </div>
-          <div class="item">
+          <div class="item newlabel">
             <img src="img/item_3.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000 синий">
-            <a class="item-buy" href="cart.html" alt="Купить">Купить</a>
-            <a class="item-bookmarks" href="bookmarks.html" alt="Добавить в закладки">В закладки</a>
+            <div class="catalog-buttons">
+              <a class="item-buy" href="cart.html" alt="Купить">Купить</a>
+              <a class="item-bookmarks" href="bookmarks.html" alt="Добавить в закладки">В закладки</a>
+            </div>
             <span>Перфоратор BOSCH</span>
             <span>BFG 2000</span>
+            <span class="empty"></span>
             <p class="price">12500 p.</p>
           </div>
         </div>
@@ -253,11 +270,11 @@
             Вы можете забрать товар сами,
             заехав в наш офис:
           </p>
-          <a href="map.html">
+          <a class="map-link" href="map.html">
             <img src="img/smallmap.png" width="300" height="158" alt="Карта расположения офиса «Техномарт» по адресу:
              г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
           </a>
-          <button class="write-us" type="button">Заблудились? Напишите нам!</button>
+          <a class="write-us" href="#" alt="Форма обратной связи">Заблудились? Напишите нам!</a>
         </section>
       </div>
 
@@ -297,70 +314,78 @@
             © 2010–2019 Компания «Техномарт»
             Все права защищены
           </p>
-          <div class="socials">
-            <ul class="socials-container">
-              <li>
-                <a class="vkontakte" href="https://vk.com" alt"Вконтакте"></a>
-              </li>
-              <li>
-                <a class="facebook" href="https://facebook.com" alt="Фейсбук"></a>
-              </li>
-              <li>
-                <a class="instagram" href="https://instagram.com" alt="Инстаграм"></a>
-              </li>
-            </ul>
-          </div>
-          <div class="lower-footer-fields">
-            <p class="feedback">
-              Обратная связь:
-              <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-            </p>
-            <p class="done">
-              Разработано -
-              <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
-            </p>
-          </div>
+          <ul class="socials">
+            <li>
+              <a class="vkontakte" href="https://vk.com" alt"Вконтакте"></a>
+            </li>
+            <li>
+              <a class="facebook" href="https://facebook.com" alt="Фейсбук"></a>
+            </li>
+            <li>
+              <a class="instagram" href="https://instagram.com" alt="Инстаграм"></a>
+            </li>
+          </ul>
+
+        <div class="lower-footer-fields">
+          <p class="feedback-email">
+            Обратная связь:
+            <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          </p>
+          <p class="done">
+            Разработано —
+            <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+          </p>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <section class="hidden">
-      <h2 class="visually-hidden">Форма обратной связи</h2>
-        <form method="post" action="#">
-        <div class="width-half">
-          <label for="user-name">Ваше имя:</label>
-          <input type="text" id="user-name" name="name" placeholder="Имя Фамилия">
-        </div>
-        <div class="width-half">
-          <label for="user-email">Ваш e-mail:</label>
-          <input type="email" id="user-email" name="email" placeholder="email@example.com">
-        </div>
-        <div>
-          <label for="user-text">Текст письма:</label>
-          <textarea name="letter" id="user-text" rows="5">В свободной форме</textarea>
-        </div>
-        <button type="submit">Отправить</button>
-      </form>
-      <button type="button">Закрыть</button>
-    </section>
-
-    <section class="hidden">
+  <section class="popup map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5769169308242!2d30.322621958816832!3d59.93916232215763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1582703164863!5m2!1sru!2sru" width="940" height="446" allowfullscreen=""></iframe>
       <div>
         <img src="img/map.jpg" width="940" height="446" alt="Карта расположения офиса «Техномарт» по адресу:
         г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
-        <button type="button">Закрыть</button>
       </div>
+      <button class="close" type="button">Закрыть</button>
     </section>
 
-    <section class="hidden">
-      <h2>Товар добавлен в корзину!</h2>
-      <div>
-        <a href="order.html">Оформить заказ</a>
-        <a href="catalog.html">Продолжить покупки</a>
-        <button type="button">Закрыть</button>
-      </div>
+    <section class="popup feedback">
+      <h2 class="visually-hidden">Обратная связь</h2>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <div class="feedback-input">
+          <p>
+            <label for="letter-name">Ваше имя:</label>
+            <input id="letter-name" type="text" name="name" placeholder="Имя Фамилия">
+          </p>
+          <p>
+            <label for="letter-email">Ваш e-mail:</label>
+            <input id="letter-email" type="email" name="email" placeholder="email@example.com">
+          </p>
+          <p>
+            <label for="letter-text">Текст письма:</label>
+            <textarea id="letter-text" name="content" placeholder="В свободной форме"></textarea>
+          </p>
+        </div>
+        <div class="feedback-button">
+          <button class="button" type="submit">Отправить</button>
+        </div>
+      </form>
+      <button class="close" type="button">Закрыть</button>
     </section>
+
+    <section class="popup popcart">
+      <h2>Товар добавлен в корзину!</h2>
+      <div class="popcart-footer">
+        <a class="button-popup" href="order.html">Оформить заказ</a>
+        <a class="button-popup resume" href="catalog.html">Продолжить покупки</a>
+        </div>
+        <button class="close" type="button">Закрыть</button>
+    </section>
+
+    <script src="js/mini-feedback.js"></script>
+    <script src="js/mini-map.js"></script>
+    <script src="js/mini-cart.js"></script>
 
   </body>
 </html>
