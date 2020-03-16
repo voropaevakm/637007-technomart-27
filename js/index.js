@@ -11,6 +11,16 @@
   var isStorageSupport = true;
   var storage = "";
 
+  var mapLink = document.querySelector(".map-link");
+
+  var mapPopup = document.querySelector(".map");
+  var mapClose = mapPopup.querySelector(".close");
+
+  var buyLink = document.querySelectorAll(".item-buy");
+
+  var cartPopup = document.querySelector(".popcart");
+  var cartClose = cartPopup.querySelector(".close");
+
   try {
     storage = localStorage.getItem("user");
   } catch (err) {
@@ -48,12 +58,33 @@
     }
   });
 
+  mapLink.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    mapPopup.classList.add("popup-show");
+  });
+
+  mapClose.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    mapPopup.classList.remove("popup-show");
+  });
+
+  buyLink.forEach(function (lnk) {
+    lnk.addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.add("popup-show");
+    })
+  });
+
+  cartClose.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    cartPopup.classList.remove("popup-show");
+  });
+
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
-      if (popup.classList.contains("popup-show")) {
         evt.preventDefault();
         popup.classList.remove("popup-show");
-        popup.classList.remove("feedback-error");
-      }
+        mapPopup.classList.remove("popup-show");
+        cartPopup.classList.remove("popup-show");
     }
   });
